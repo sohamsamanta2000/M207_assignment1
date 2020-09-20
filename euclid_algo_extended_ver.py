@@ -17,4 +17,4 @@ def ext_gcd(a,b):
 
     return gcd, x, y
 
-print( ext_gcd(942,66))   #example
+print( ext_gcd(10889992,66))   #example

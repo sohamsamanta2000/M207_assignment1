@@ -2,14 +2,14 @@ def gcd(a,b):
     a=max(a,b)  
     b=min(a,b)
 
-    if b==0:
-        return a
+    if b==0:       #base case
+        return a  
     else:
 
-        c=a
+        c=a        #temporary variable
         a=b
         b=c%b
 
         return gcd(a,b)
 
-print( gcd(942,66))
+print( gcd(200,66)) #example
